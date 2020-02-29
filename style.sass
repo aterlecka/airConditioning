@@ -1,0 +1,72 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+$base-color: #ddf9f7
+$colorHover: #1fbfe0
+//$colorHover: #000000
+$colorIcons: #242f4d
+.main
+  display: flex
+  justify-content: center
+  background-color: white
+  overflow: hidden
+  position: fixed
+  top: 0
+  width: 100%
+
+.main .col0-0
+  display: flex
+  flex: auto
+
+.logo
+  img
+    max-width: 150px
+    margin-left: 5px
+
+.main
+  .icons
+    a
+      color: $colorIcons
+      text-decoration: none
+      max-width: 45px
+      font-size: 22px
+      margin-top: 20px
+      margin-left: 3px
+
+      &:hover
+        color: $colorHover
+        transition: 0.6s
+
+.col1-1
+  display: flex
+  justify-content: flex-end
+  margin-top: 15px
+  font-family: 'Trebuchet MS'
+  flex: auto
+
+  .col1
+    flex: 0 0 16%
+
+  .col2
+    flex: 0 0 10%
+
+  .col3
+    flex: 0 0 11%
+
+  .col4
+    flex: 0 0 22%
+
+  .co
+    margin-bottom: 2px
+
+.col1-1
+  a
+    list-style: none
+    text-decoration: none
+    color: $colorIcons
+
+    &:hover
+      color: $colorHover
+      transition: 0.6s
