@@ -4,23 +4,27 @@
   box-sizing: border-box;
 }
 
+.images {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
 .main {
   display: flex;
   justify-content: center;
   background-color: white;
-  overflow: hidden;
-  position: fixed;
   top: 0;
   width: 100%;
 }
 
 .main .col0-0 {
   display: flex;
-  flex: auto;
+  justify-content: center;
+  width: 30%;
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 225px;
   margin-left: 5px;
 }
 
@@ -28,7 +32,7 @@
   color: #242f4d;
   text-decoration: none;
   max-width: 45px;
-  font-size: 22px;
+  font-size: 27px;
   margin-top: 20px;
   margin-left: 3px;
 }
@@ -41,20 +45,21 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 15px;
+  width: 70%;
   font-family: "Trebuchet MS";
-  flex: auto;
+  flex: 0 0 60%;
 }
 .col1-1 .col1 {
-  flex: 0 0 16%;
+  flex: 0 0 20%;
 }
 .col1-1 .col2 {
-  flex: 0 0 10%;
+  flex: 0 0 13%;
 }
 .col1-1 .col3 {
-  flex: 0 0 11%;
+  flex: 0 0 16%;
 }
 .col1-1 .col4 {
-  flex: 0 0 22%;
+  flex: 0 0 15%;
 }
 .col1-1 .co {
   margin-bottom: 2px;
@@ -64,10 +69,78 @@
   list-style: none;
   text-decoration: none;
   color: #242f4d;
+  font-size: 25px;
 }
 .col1-1 a:hover {
   color: #1fbfe0;
   transition: 0.6s;
+}
+
+/*mobile version/* */
+@media (max-width: 980px) {
+  .text p {
+    color: blue;
+  }
+
+  .main {
+    justify-content: center;
+    top: 0;
+    flex-direction: column;
+  }
+
+  .main .col0-0 {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo img {
+    max-width: 100%;
+  }
+
+  .col1-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    width: 100%;
+    flex: 0 0 30%;
+  }
+  .col1-1 a {
+    font-size: 30px;
+  }
+}
+/* end mobile version -header ------slider desktop */
+.images img {
+  width: 60vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+.images .img1 {
+  width: 1400px;
+  height: 100%;
+}
+
+.images .img2 {
+  width: 1400px;
+  height: 500px;
+}
+
+.images .img3 {
+  width: 1400px;
+  height: 500px;
+}
+
+.images .img4 {
+  width: 1400px;
+  height: 500px;
+}
+
+.images .img5 {
+  width: 1400px;
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
