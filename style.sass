@@ -10,10 +10,14 @@ $colorIcons: #242f4d
 
 .images
   margin: 0 auto
-  max-width: 1170px
-
-
-
+  max-width: 100%
+  background-size: 100%
+  width: 2000px
+    //display: block
+    //overflow: hidden
+    //height: 100%
+    //
+    //position: relative
 
 
 .main
@@ -39,23 +43,23 @@ $colorIcons: #242f4d
 
 
 .main
-  .icons
-    a
-      color: $colorIcons
-      text-decoration: none
-      max-width: 45px
-      font-size: 27px
-      margin-top: 20px
-      margin-left: 3px
-
-      &:hover
-        color: $colorHover
-        transition: 0.6s
+  //.icons
+  //  a
+  //    color: $colorIcons
+  //    text-decoration: none
+  //    max-width: 45px
+  //    font-size: 27px
+  //    margin-top: 20px
+  //    margin-left: 3px
+  //
+  //    &:hover
+  //      color: $colorHover
+  //      transition: 0.6s
 
 .col1-1
   display: flex
   justify-content: flex-end
-  margin-top: 15px
+  margin-top: 37px
   width: 70%
   font-family: 'Trebuchet MS'
   flex: 0 0 60%
@@ -89,9 +93,6 @@ $colorIcons: #242f4d
 /*mobile version/*
 
 @media (max-width: 980px)
-  .text
-    p
-      color: blue
 
   .main
     justify-content: center
@@ -113,12 +114,12 @@ $colorIcons: #242f4d
   .col1-1
     display: flex
     justify-content: center
-    margin-top: 45px
+    margin-top: 40px
     width: 100%
-    flex: 0 0 30%
+    flex: 0 0 25%
 
     a
-      font-size: 30px
+      font-size: 12px
 
 
 /* end mobile version -header ------slider desktop */
@@ -134,8 +135,9 @@ $colorIcons: #242f4d
 
 .images
   .img1
+
     width: 1400px
-    height: 100%
+    height: 500px
 
 .images
   .img2
@@ -146,6 +148,7 @@ $colorIcons: #242f4d
   .img3
     width: 1400px
     height: 500px
+
 .images
   .img4
     width: 1400px
@@ -155,3 +158,80 @@ $colorIcons: #242f4d
   .img5
     width: 1400px
     height: 500px
+
+.bg-footer
+  display: flex
+  //background-color: #33383c
+  //background-color: #b1b1b1
+  background-color: #dbdbdb
+  margin: 0 auto
+
+
+  .sectionWithCol
+    margin-top: 20px
+    display: flex
+    font-family: 'Trebuchet MS'
+
+//.bg-footer
+//  .sectionWithCol
+//    .col
+//      flex: 0 0 25%
+//      text-align: center
+//
+//      &:before
+//        position: absolute
+//        content: ""
+//        top: 0
+//        left: 22px
+//        height: 58px
+//        width: 1px
+//        background-color: black
+//
+//    .col1
+//      flex-direction: column
+//
+//      img
+//        width: 80%
+//        margin-top: 31px
+//
+//    ul
+//
+//      li
+//        list-style: none
+//        line-height: 28px
+//        text-align: center
+//
+//        a
+//          text-decoration: none
+//          list-style: none
+//          font-size: 30px
+//          color: black
+//
+//          &:hover
+//            color: $colorIcons
+//
+//.sectionWithCol
+//  .col4
+//    p
+//      iframe
+//        text-align: center
+//        justify-content: center
+//        max-width: 100%
+//        height: 200px
+//        width: 502px
+
+/*footer/*
+
+
+
+
+footer
+  margin-top: 30px
+
+.col-1-2
+  .icon
+    font-size: 30px
+    margin-left: 15px
+
+
+

@@ -6,7 +6,9 @@
 
 .images {
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 100%;
+  background-size: 100%;
+  width: 2000px;
 }
 
 .main {
@@ -28,23 +30,10 @@
   margin-left: 5px;
 }
 
-.main .icons a {
-  color: #242f4d;
-  text-decoration: none;
-  max-width: 45px;
-  font-size: 27px;
-  margin-top: 20px;
-  margin-left: 3px;
-}
-.main .icons a:hover {
-  color: #1fbfe0;
-  transition: 0.6s;
-}
-
 .col1-1 {
   display: flex;
   justify-content: flex-end;
-  margin-top: 15px;
+  margin-top: 37px;
   width: 70%;
   font-family: "Trebuchet MS";
   flex: 0 0 60%;
@@ -78,10 +67,6 @@
 
 /*mobile version/* */
 @media (max-width: 980px) {
-  .text p {
-    color: blue;
-  }
-
   .main {
     justify-content: center;
     top: 0;
@@ -100,12 +85,12 @@
   .col1-1 {
     display: flex;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 40px;
     width: 100%;
-    flex: 0 0 30%;
+    flex: 0 0 25%;
   }
   .col1-1 a {
-    font-size: 30px;
+    font-size: 12px;
   }
 }
 /* end mobile version -header ------slider desktop */
@@ -120,7 +105,7 @@
 
 .images .img1 {
   width: 1400px;
-  height: 100%;
+  height: 500px;
 }
 
 .images .img2 {
@@ -141,6 +126,27 @@
 .images .img5 {
   width: 1400px;
   height: 500px;
+}
+
+.bg-footer {
+  display: flex;
+  background-color: #dbdbdb;
+  margin: 0 auto;
+}
+.bg-footer .sectionWithCol {
+  margin-top: 20px;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+/*footer/* */
+footer {
+  margin-top: 30px;
+}
+
+.col-1-2 .icon {
+  font-size: 30px;
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
