@@ -4,18 +4,30 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .images {
   margin: 0 auto;
   max-width: 100%;
   background-size: 100%;
   width: 2000px;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .main {
   display: flex;
   justify-content: center;
   background-color: white;
+  overflow: hidden;
+  position: fixed;
   top: 0;
+  z-index: 2;
   width: 100%;
 }
 
@@ -23,6 +35,10 @@
   display: flex;
   justify-content: center;
   width: 30%;
+}
+
+.main .fa {
+  display: none;
 }
 
 .logo img {
@@ -61,8 +77,7 @@
   font-size: 25px;
 }
 .col1-1 a:hover {
-  color: #1fbfe0;
-  transition: 0.6s;
+  color: #276263;
 }
 
 /*mobile version/* */
@@ -83,14 +98,13 @@
   }
 
   .col1-1 {
-    display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
     flex: 0 0 25%;
   }
   .col1-1 a {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 /* end mobile version -header ------slider desktop */
@@ -104,42 +118,118 @@
 }
 
 .images .img1 {
-  width: 1400px;
+  width: 1550px;
   height: 500px;
 }
 
 .images .img2 {
-  width: 1400px;
+  width: 1550px;
   height: 500px;
 }
 
 .images .img3 {
-  width: 1400px;
+  width: 1550px;
   height: 500px;
 }
 
 .images .img4 {
-  width: 1400px;
+  width: 1550px;
   height: 500px;
 }
 
 .images .img5 {
-  width: 1400px;
-  height: 500px;
+  width: 1150px;
+  height: 150px;
 }
 
-.bg-footer {
-  display: flex;
-  background-color: #dbdbdb;
-  margin: 0 auto;
+.aboutUs {
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
-.bg-footer .sectionWithCol {
-  margin-top: 20px;
-  display: flex;
+.aboutUs h1 {
   font-family: "Trebuchet MS";
+  text-align: center;
+  font-size: 50px;
+  color: #014871;
+  -webkit-background-clip: text;
+}
+.aboutUs h2 {
+  margin-top: 1%;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  font-size: 30px;
+  color: #014871;
+  -webkit-background-clip: text;
+  margin-bottom: 1%;
+}
+.aboutUs ul li {
+  font-family: Consolas, monaco, monospace;
+  line-height: 30px;
+  list-style: none;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-/*footer/* */
+.aboutUs li:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+  background-color: #2b81af;
+  -webkit-mask-image: url("fan-solid.svg");
+  -webkit-mask-size: cover;
+}
+
+.offer .offerDescribe {
+  font-weight: bold;
+  font-family: Consolas, monaco, monospace;
+  font-size: 50px;
+  color: #0d3349;
+  text-align: center;
+}
+.offer .mainCol {
+  display: flex;
+  justify-content: center;
+  font-family: Consolas, monaco, monospace;
+  margin-bottom: 30px;
+}
+.offer .mainCol .col {
+  margin-right: 2%;
+  margin-top: 1%;
+  flex: 0 0 30%;
+  text-align: center;
+  font-family: Consolas, monaco, monospace;
+}
+.offer .mainCol .col .col1 {
+  font-family: Consolas, monaco, monospace;
+}
+.offer .mainCol .col .describe {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Consolas, monaco, monospace;
+  color: #0d3349;
+}
+.offer .mainCol .col .title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Consolas, monaco, monospace;
+  color: #0d3349;
+}
+
+@media (max-width: 980px) {
+  .offer .mainCol {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 980px) {
+  .images .img1 {
+    width: 1150px;
+    height: 150px;
+  }
+}
 footer {
   margin-top: 30px;
 }
@@ -147,6 +237,37 @@ footer {
 .col-1-2 .icon {
   font-size: 30px;
   margin-left: 15px;
+}
+
+.certificates img {
+  margin: 0 auto;
+  max-width: calc(100% - 20px);
+  height: 50%;
+  width: 50%;
+  background-size: cover;
+}
+.certificates p {
+  text-align: center;
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+}
+
+.void {
+  margin-bottom: 30px;
+  font-family: Consolas, monaco, monospace;
+  color: #0d3349;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 980px) {
+  .certificates img {
+    height: auto;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

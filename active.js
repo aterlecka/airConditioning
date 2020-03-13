@@ -1,5 +1,5 @@
 function showHideFooterLinks(child) {
-    if ($(document).width() > 757)
+    if ($(document).width() > 980)
         return;
 
     let menu = $(child).parent().find('div');
@@ -11,3 +11,16 @@ function showHideFooterLinks(child) {
         $(child).find('.fontello-icon').css('transform', 'rotate(90deg)')
     }
 }
+
+
+function myFunction() {
+    if ($(document).width() > 980)
+        return;
+    let x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
