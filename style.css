@@ -8,6 +8,11 @@ html {
   overflow-x: hidden;
 }
 
+@media (max-width: 980px) {
+  html {
+    overflow-x: hidden;
+  }
+}
 .images {
   margin: 0 auto;
   max-width: 100%;
@@ -73,7 +78,7 @@ html {
 .col1-1 a {
   list-style: none;
   text-decoration: none;
-  color: #242f4d;
+  color: #014871;
   font-size: 25px;
 }
 .col1-1 a:hover {
@@ -84,8 +89,11 @@ html {
 @media (max-width: 980px) {
   .main {
     justify-content: center;
+    overflow: hidden;
+    position: fixed;
     top: 0;
     flex-direction: column;
+    z-index: 2;
   }
 
   .main .col0-0 {
@@ -108,8 +116,11 @@ html {
   }
 }
 /* end mobile version -header ------slider desktop */
+.images {
+  margin-top: 5%;
+}
 .images img {
-  width: 60vw;
+  width: 100vw;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -139,9 +150,30 @@ html {
 
 .images .img5 {
   width: 1150px;
-  height: 150px;
+  height: 500px;
 }
 
+@media (max-width: 980px) {
+  .images {
+    margin-top: 40%;
+  }
+  .images .img2 {
+    width: 100%;
+    height: 250px;
+  }
+  .images .img3 {
+    width: 100%;
+    height: 100%;
+  }
+  .images .img4 {
+    width: 100%;
+    height: 100%;
+  }
+  .images .img1 {
+    width: 100%;
+    height: 100%;
+  }
+}
 .aboutUs {
   justify-content: center;
   margin-top: 3%;
@@ -182,11 +214,16 @@ html {
   -webkit-mask-size: cover;
 }
 
+.offer img {
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+}
 .offer .offerDescribe {
   font-weight: bold;
   font-family: Consolas, monaco, monospace;
   font-size: 50px;
-  color: #0d3349;
+  color: #014871;
   text-align: center;
 }
 .offer .mainCol {
@@ -209,19 +246,23 @@ html {
   text-align: justify;
   text-justify: inter-word;
   font-family: Consolas, monaco, monospace;
-  color: #0d3349;
+  color: #014871;
 }
 .offer .mainCol .col .title {
   font-size: 20px;
   font-weight: bold;
   font-family: Consolas, monaco, monospace;
-  color: #0d3349;
+  color: #014871;
 }
 
 @media (max-width: 980px) {
   .offer .mainCol {
     display: flex;
     flex-direction: column;
+  }
+  .offer img {
+    margin: 0 auto;
+    width: 100%;
   }
 }
 @media (max-width: 980px) {
@@ -242,6 +283,7 @@ footer {
 .certificates img {
   margin: 0 auto;
   max-width: calc(100% - 20px);
+  max-width: 100%;
   height: 50%;
   width: 50%;
   background-size: cover;
@@ -255,7 +297,7 @@ footer {
 .void {
   margin-bottom: 30px;
   font-family: Consolas, monaco, monospace;
-  color: #0d3349;
+  color: #014871;
   font-size: 40px;
   font-weight: bold;
   display: flex;
@@ -267,6 +309,7 @@ footer {
   .certificates img {
     height: auto;
     width: auto;
+    max-width: 400px;
   }
 }
 
