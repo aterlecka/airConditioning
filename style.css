@@ -36,7 +36,7 @@ html {
   width: 100%;
 }
 
-.main .col0-0 {
+.main .main__col0 {
   display: flex;
   justify-content: center;
   width: 30%;
@@ -46,12 +46,12 @@ html {
   display: none;
 }
 
-.logo img {
+.main__col0--logo img {
   max-width: 225px;
   margin-left: 5px;
 }
 
-.col1-1 {
+.main__col1 {
   display: flex;
   justify-content: flex-end;
   margin-top: 37px;
@@ -59,33 +59,33 @@ html {
   font-family: "Trebuchet MS";
   flex: 0 0 60%;
 }
-.col1-1 .col1 {
+.main__col1 .main__col1--1 {
   flex: 0 0 20%;
 }
-.col1-1 .col2 {
+.main__col1 .main__col1--2 {
   flex: 0 0 13%;
 }
-.col1-1 .col3 {
+.main__col1 .main__col1--3 {
   flex: 0 0 16%;
 }
-.col1-1 .col4 {
+.main__col1 .main__col1--4 {
   flex: 0 0 15%;
 }
-.col1-1 .co {
+.main__col1 .main__col1--col {
   margin-bottom: 2px;
 }
 
-.col1-1 a {
+.main__col1 a {
   list-style: none;
   text-decoration: none;
   color: #014871;
   font-size: 25px;
 }
-.col1-1 a:hover {
+.main__col1 a:hover {
   color: #276263;
 }
 
-/*mobile version/* */
+/*mobile version header/* */
 @media (max-width: 980px) {
   .main {
     justify-content: center;
@@ -96,22 +96,22 @@ html {
     z-index: 2;
   }
 
-  .main .col0-0 {
+  .main .main__col0 {
     justify-content: center;
     width: 100%;
   }
 
-  .logo img {
+  .main__col0--logo img {
     max-width: 100%;
   }
 
-  .col1-1 {
+  .main__col1 {
     justify-content: center;
     margin-top: 10px;
     width: 100%;
     flex: 0 0 25%;
   }
-  .col1-1 a {
+  .main__col1 a {
     font-size: 10px;
   }
 }
@@ -128,22 +128,22 @@ html {
   height: auto;
 }
 
-.images .img1 {
+.images .certificates__img1 {
   width: 1550px;
   height: 500px;
 }
 
-.images .img2 {
+.images .images__img1 {
   width: 1550px;
   height: 500px;
 }
 
-.images .img3 {
+.images .images__img2 {
   width: 1550px;
   height: 500px;
 }
 
-.images .img4 {
+.images .images__img3 {
   width: 1550px;
   height: 500px;
 }
@@ -157,30 +157,31 @@ html {
   .images {
     margin-top: 40%;
   }
-  .images .img2 {
+  .images .images__img1 {
     width: 100%;
     height: 250px;
   }
-  .images .img3 {
+  .images .images__img2 {
     width: 100%;
     height: 100%;
   }
-  .images .img4 {
+  .images .images__img3 {
     width: 100%;
     height: 100%;
   }
-  .images .img1 {
+  .images .certificates__img1 {
     width: 100%;
     height: 100%;
   }
 }
+/*section About desktop and mobile*/
 .aboutUs {
   justify-content: center;
   margin-top: 3%;
   margin-bottom: 2%;
+  padding: 0 15px;
 }
 .aboutUs h1 {
-  font-family: "Trebuchet MS";
   text-align: center;
   font-size: 50px;
   color: #014871;
@@ -188,32 +189,37 @@ html {
 }
 .aboutUs h2 {
   margin-top: 1%;
-  font-family: "Trebuchet MS";
   text-align: center;
   font-size: 30px;
   color: #014871;
   -webkit-background-clip: text;
   margin-bottom: 1%;
 }
-.aboutUs ul li {
-  font-family: Consolas, monaco, monospace;
+.aboutUs p {
   line-height: 30px;
   list-style: none;
   text-align: justify;
   text-justify: inter-word;
+  margin-bottom: 10px;
+  flex: 0 0 45%;
+}
+@media (min-width: 980px) {
+  .aboutUs .aboutUs__text {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
-.aboutUs li:before {
+.aboutUs p:before {
   content: "";
   display: inline-block;
   height: 15px;
   width: 15px;
   margin-right: 7px;
-  background-color: #2b81af;
-  -webkit-mask-image: url("fan-solid.svg");
-  -webkit-mask-size: cover;
+  background-image: url("fan-solid.svg");
 }
 
+/*   */
 .offer img {
   width: 100%;
   margin: 0 auto;
@@ -226,29 +232,29 @@ html {
   color: #014871;
   text-align: center;
 }
-.offer .mainCol {
+.offer .offer__columns {
   display: flex;
   justify-content: center;
   font-family: Consolas, monaco, monospace;
   margin-bottom: 30px;
 }
-.offer .mainCol .col {
+.offer .offer__columns .offer__columns--col {
   margin-right: 2%;
   margin-top: 1%;
   flex: 0 0 30%;
   text-align: center;
   font-family: Consolas, monaco, monospace;
 }
-.offer .mainCol .col .col1 {
+.offer .offer__columns .offer__columns--col .main__col1--1 {
   font-family: Consolas, monaco, monospace;
 }
-.offer .mainCol .col .describe {
+.offer .offer__columns .offer__columns--col .describe {
   text-align: justify;
   text-justify: inter-word;
   font-family: Consolas, monaco, monospace;
   color: #014871;
 }
-.offer .mainCol .col .title {
+.offer .offer__columns .offer__columns--col .title {
   font-size: 20px;
   font-weight: bold;
   font-family: Consolas, monaco, monospace;
@@ -256,7 +262,7 @@ html {
 }
 
 @media (max-width: 980px) {
-  .offer .mainCol {
+  .offer .offer__columns {
     display: flex;
     flex-direction: column;
   }
@@ -266,7 +272,7 @@ html {
   }
 }
 @media (max-width: 980px) {
-  .images .img1 {
+  .images .certificates__img1 {
     width: 1150px;
     height: 150px;
   }

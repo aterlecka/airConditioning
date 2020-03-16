@@ -2,75 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <title>Air Conditioning</title>
-    <link rel="stylesheet" type="text/css" href="style.sass">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="styleMobileHeader.css">
     <link rel="stylesheet" type="text/css" href="styleFooter.css">
-    <link rel="stylesheet" href="style.sass">
-    <link rel="stylesheet" href="style.sass">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="active.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>team 5</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="webcamp iai#6 team5">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="author" content="team 5">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="active.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
 
-<div class="container">
-    <a href="#"></a>
-    <div class="main">
-        <div class="col0-0">
-            <div class="co logo col">
-                <a href="main.html"> <img src="images/logoMałe.PNG" alt="logo"></a>
+<header>
+    <div class="container">
+        <a href="#"></a>
+        <div class="main">
+            <div class="main__col0">
+                <div class=" main__col0--logo">
+                    <a href="main.html"> <img src="images/logoMałe.PNG" alt="logo"></a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class=" fa fa-bars"></i>
+            </a>
+            <div id="myLinks" class="main__col1">
+                <div class="main__col1--col main__col1--1"><a href="#about">NASZA WIZJA</a></div>
+                <div class="main__col1--col main__col1--2"><a href="#oferta">OFERTA</a></div>
+                <div class="main__col1--col main__col1--3"><a href="#">GALERIA</a></div>
+                <div class="main__col1--col main__col1--4"><a href="#footer">KONTAKT</a></div>
             </div>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class=" fa fa-bars"></i>
-        </a>
-        <div id="myLinks" class="col1-1">
-            <div class="co col1"><a href="#about">NASZA WIZJA</a></div>
-            <div class="co col2"><a href="#oferta">OFERTA</a></div>
-            <div class="co col3"><a href="#">GALERIA</a></div>
-            <div class="co col4"><a href="#footer">KONTAKT</a></div>
-        </div>
     </div>
-</div>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+</header>
 
 <div class="images">
-    <div><img class="img2" src="images/klima19-1150x500.jpg"></div>
-    <div><img class="img3" src="images/should-i-repair-my-ac-or-replace-my-air-conditioner-1.jpg"></div>
-    <div><img class="img4" src="images/klim20.jpg"></div>
+    <div><img class="images__img1" src="images/klima19-1150x500.jpg"></div>
+    <div><img class="images__img2" src="images/should-i-repair-my-ac-or-replace-my-air-conditioner-1.jpg"></div>
+    <div><img class="images__img3" src="images/klim20.jpg"></div>
 
 </div>
-</div>
+
 <a name="about"></a>
 <section class="aboutUs">
     <h1> O NAS </h1>
     <h2> DBAMY O DOBRY KLIMAT W TWOIM OTOCZENIU </h2>
-    <ul>
-        <li>Podstawą naszej pracy są najnowsze technologie w dziedzinie klimatyzacji, wentylacji i automatyki.
+    <div class="aboutUs__text">
+        <p>
+            Podstawą naszej pracy są najnowsze technologie w dziedzinie klimatyzacji, wentylacji i automatyki.
             Profesjonalne podejście do każdego zlecenia.
             Wiemy, że potrzeby klientów są różne, dlatego do każdego podchodzimy indywidualnie.
             Oferujemy sprawdzone rozwiązania renomowanych marek i najwyższej jakości urządzenia.
@@ -78,78 +65,72 @@
             Zapewniamy rzetelność profesjonalizm, terminowość realizacji podjętych przez nas projektów.
             Nasi pracownicy Posiadają niezbędną wiedzę , doświadczenie oraz uprawnienia i certyfikaty Urzędu Dozoru
             Technicznego pozwalające na ingerencję przy układach klimatyzacji.
-
             Oferujemy prace serwisowe, konserwacyjne (odgrzybianie, dezynfekcja) i montażowe objęte obowiązkowymi
             wpisami do Centralnego Rejestru Operatorów.
-        </li>
-
-        <li>Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
-            sprzętu oraz profesjonalny montaż i serwis urządzeń.
+        </p>
+        <p>
             Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
             sprzętu oraz profesjonalny montaż i serwis urządzeń.
             Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
             sprzętu oraz profesjonalny montaż i serwis urządzeń.
             Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
             sprzętu oraz profesjonalny montaż i serwis urządzeń.
-        </li>
-
-    </ul>
+            Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
+            sprzętu oraz profesjonalny montaż i serwis urządzeń.
+        </p>
+    </div>
 </section>
 
 <section class="offer">
     <a name="oferta"></a>
     <h1 class="offerDescribe">OFERTA</h1>
-    <div class="mainCol">
-        <div class="col col1">
+    <div class="offer__columns">
+        <div class="offer__columns--col col1">
             <p class="title">KLIMATYZACJA</p>
-            <a><img src="images/climatisation.jpg" width="auto" height="200px"></a>
-
+            <a><img src="images/climatisation.jpg" height="200" alt="klimatyzacja1"></a>
             <p class="describe">Działalność naszej firmy opiera się na doborze i montażu urządzeń oraz na kompleksowej
                 obsłudze w zakresie serwisu gwarancyjnego i pogwarancyjnego. Realizuje usługi klimatyzowania pomieszczeń
                 o różnym przeznaczeniu: mieszkalne, biurowe, serwerownie, apteki, sklepy, obiekty gastronomiczne i
                 rozrywkowe, obiekty użyteczności publicznej (banki, hotele), laboratoria i inne.</p>
         </div>
-
-        <div class="col col2">
+        <div class="offer__columns--col col2">
             <p class="title">WENTYLACJA</p>
-            <a><img src="images/image.webp" width="auto" height="200px"></a>
-
+            <a><img src="images/image.webp" height="200" alt="klimatyzacja2"></a>
             <p class="describe">Służymy fachową poradą w zakresie projektowania, montażu, a także czyszczenia, naprawy i
                 serwisowania urządzeń wentylacyjnych – możesz być pewien, że zainstalowanie odpowiedniej centrali
                 wentylacyjnej korzystnie wpłynie na komfort termiczny, zdrowie i bezpieczeństwo Twoje i Twojej rodziny
-                czy współpracowników.</p></div>
-
-        <div class="col col3">
+                czy współpracowników.</p>
+        </div>
+        <div class="offer__columns--col col3">
             <p class="title">AUTOMATYKA</p>
-            <a><img src="images/unnamed.jpg" width="auto" height="200px"></a>
-
+            <a><img src="images/unnamed.jpg" height="200" alt="klimatyzacja3"></a>
             <p class="describe">Główną gałęzią naszych działań jest automatyka w przemyśle. Dziedzina ta jest nam bardzo
                 dobrze znana co sprawia, że nasze kompetencje są na najwyższym poziomie. Zajmujemy się detekcją gazów w
                 takich obiektach jak np. garaże w blokach czy hotelach gdzie mamy czujniki detekcji tlenku węgla
                 ,propanu-butanu czy LPG współpracujących z wentylacją bytową.</p></div>
-
-
     </div>
 </section>
-<section class="gallery">
 
+
+<section class="gallery">
 </section>
+
 
 <p class="void">NASZE CERTYFIKATY</p>
 <section class="certificates">
 
-    <div class="col img1"><img src="images/cer8.jpg">
+    <div class="certificates__col certificates__img1"><img src="images/cer8.jpg">
         <p>podpis</p>
     </div>
-    <div class="col img2"><img src="images/cer7.jpg">
+    <div class="certificates__col certificates__img2"><img src="images/cer7.jpg">
         <p>podpis</p></div>
-    <div class="col img3"><img src="images/cer1.jpg">
+    <div class="certificates__col certificates__img3"><img src="images/cer1.jpg">
         <p>podpis</p></div>
-    <div class="col img4"><img src="images/cer2.jpg">
+    <div class="certificates__col certificates__img4"><img src="images/cer2.jpg">
         <p>podpis</p></div>
-    <div class="col img5"><img src="images/cer3.jpg">
+    <div class="certificates__col certificates__img5"><img src="images/cer3.jpg">
         <p>podpis</p></div>
-    <div class="col img5"><img src="images/cer4.jpg">
+    <div class="certificates__col certificates__img6"><img src="images/cer4.jpg">
         <p>podpis</p></div>
 
 

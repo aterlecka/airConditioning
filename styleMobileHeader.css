@@ -2,14 +2,14 @@
 
 @media (max-width: 980px) {
 
-    .col1-1 {
+    .main__col1 {
         overflow: hidden;
         background-color: #ededed;
         position: relative;
         display: none;
     }
 
-    .col1-1 #myLinks {
+    .main__col1 #myLinks {
         display: none;
     }
 
@@ -27,7 +27,7 @@
 
 }
 
-    .col1-1 a {
+    .main__col1 a {
         color: black;
         padding: 14px 16px;
         text-decoration: none;
@@ -37,7 +37,7 @@
     }
 
 
-    .col1-1 a.icon {
+    .main__col1 a.icon {
         background: pink;
         display: block;
         position: relative;
@@ -45,7 +45,7 @@
         top: 0;
     }
 
-    .col1-1 a:hover {
+    .main__col1 a:hover {
         background-color: #ddd;
         color: black;
     }
