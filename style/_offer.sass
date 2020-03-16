@@ -1,0 +1,60 @@
+$base-color: #ddf9f7
+$colorHover: #303e66
+$colorIcons: rgb(1, 72, 113)
+
+
+.offer
+
+  img
+    width: 100%
+    margin: 0 auto
+    background-size: cover
+
+  .offerDescribe
+
+    font-weight: bold
+    font-family: Consolas, monaco, monospace
+    font-size: 50px
+    color: $colorIcons
+    text-align: center
+
+  .offer__columns
+    display: flex
+    justify-content: center
+    font-family: Consolas, monaco, monospace
+    margin-bottom: 30px
+
+
+    .offer__columns--col
+      margin-right: 2%
+      margin-top: 1%
+      flex: 0 0 30%
+      text-align: center
+      font-family: Consolas, monaco, monospace
+
+      .main__col1--1
+        font-family: Consolas, monaco, monospace
+
+      .describe
+        //text-align: center
+        text-align: justify
+        text-justify: inter-word
+        font-family: Consolas, monaco, monospace
+        color: $colorIcons
+
+      .title
+        font-size: 20px
+        font-weight: bold
+        font-family: Consolas, monaco, monospace
+        color: $colorIcons
+
+
+@media (max-width: 980px)
+  .offer
+    .offer__columns
+      display: flex
+      flex-direction: column
+    img
+      margin: 0 auto
+      width: 100%
+

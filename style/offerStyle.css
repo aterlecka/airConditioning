@@ -1,0 +1,53 @@
+.offer img {
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+}
+.offer .offerDescribe {
+  font-weight: bold;
+  font-family: Consolas, monaco, monospace;
+  font-size: 50px;
+  color: #014871;
+  text-align: center;
+}
+.offer .offer__columns {
+  display: flex;
+  justify-content: center;
+  font-family: Consolas, monaco, monospace;
+  margin-bottom: 30px;
+}
+.offer .offer__columns .offer__columns--col {
+  margin-right: 2%;
+  margin-top: 1%;
+  flex: 0 0 30%;
+  text-align: center;
+  font-family: Consolas, monaco, monospace;
+}
+.offer .offer__columns .offer__columns--col .main__col1--1 {
+  font-family: Consolas, monaco, monospace;
+}
+.offer .offer__columns .offer__columns--col .describe {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Consolas, monaco, monospace;
+  color: #014871;
+}
+.offer .offer__columns .offer__columns--col .title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Consolas, monaco, monospace;
+  color: #014871;
+}
+
+@media (max-width: 980px) {
+  .offer .offer__columns {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=offerStyle.css.map */

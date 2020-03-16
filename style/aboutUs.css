@@ -1,0 +1,45 @@
+.aboutUs {
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  padding: 0 15px;
+}
+.aboutUs h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #014871;
+  -webkit-background-clip: text;
+}
+.aboutUs h2 {
+  margin-top: 1%;
+  text-align: center;
+  font-size: 30px;
+  color: #014871;
+  -webkit-background-clip: text;
+  margin-bottom: 1%;
+}
+.aboutUs p {
+  line-height: 30px;
+  list-style: none;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 10px;
+  flex: 0 0 45%;
+}
+@media (min-width: 980px) {
+  .aboutUs .aboutUs__text {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.aboutUs p:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+  background-image: url("fan-solid.svg");
+}
+
+/*# sourceMappingURL=aboutUs.css.map */

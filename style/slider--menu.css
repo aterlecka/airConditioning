@@ -1,0 +1,72 @@
+.images {
+  margin: 0 auto;
+  max-width: 100%;
+  background-size: 100%;
+  width: 2000px;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.images {
+  margin-top: 5%;
+}
+.images img {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+.images .certificates__img1 {
+  width: 1550px;
+  height: 500px;
+}
+
+.images .images__img1 {
+  width: 1550px;
+  height: 500px;
+}
+
+.images .images__img2 {
+  width: 1550px;
+  height: 500px;
+}
+
+.images .images__img3 {
+  width: 1550px;
+  height: 500px;
+}
+
+.images .img5 {
+  width: 1150px;
+  height: 500px;
+}
+
+@media (max-width: 980px) {
+  .images {
+    margin-top: 40%;
+  }
+  .images .images__img1 {
+    width: 100%;
+    height: 250px;
+  }
+  .images .images__img2 {
+    width: 100%;
+    height: 100%;
+  }
+  .images .images__img3 {
+    width: 100%;
+    height: 100%;
+  }
+  .images .certificates__img1 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=slider--menu.css.map */

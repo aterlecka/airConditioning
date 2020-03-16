@@ -1,0 +1,43 @@
+$base-color: #ddf9f7
+$colorHover: #303e66
+$colorIcons: rgb(1, 72, 113)
+
+
+.aboutUs
+  justify-content: center
+  margin-top: 3%
+  margin-bottom: 2%
+  padding: 0 15px
+  h1
+    text-align: center
+    font-size: 50px
+    color: $colorIcons
+    -webkit-background-clip: text
+  h2
+    margin-top: 1%
+    text-align: center
+    font-size: 30px
+    color: rgb(1, 72, 113)
+    -webkit-background-clip: text
+    margin-bottom: 1%
+  p
+    line-height: 30px
+    list-style: none
+    text-align: justify
+    text-justify: inter-word
+    margin-bottom: 10px
+    flex: 0 0 45%
+  .aboutUs__text
+    @media (min-width: 980px)
+      display: flex
+      justify-content: space-around
+.aboutUs
+  p
+    &:before
+      content: ""
+      display: inline-block
+      height: 15px
+      width: 15px
+      margin-right: 7px
+      background-image: url('fan-solid.svg')
+
