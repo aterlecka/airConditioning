@@ -27,7 +27,7 @@
   .certificates img {
     height: auto;
     width: auto;
-    max-width: 400px;
+    max-width: auto;
   }
 }
 @media (max-width: 980px) {
