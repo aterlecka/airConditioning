@@ -9,6 +9,7 @@ $colorIcons: rgb(1, 72, 113)
 
 
 @media screen and (min-width: 1170px)
+
   footer
     font-size: 20px
     margin-top: 30px
@@ -28,7 +29,31 @@ $colorIcons: rgb(1, 72, 113)
         font-family: Consolas, monaco, monospace
         &:hover
           color: #e21f11
-
+  footer
+   .col-1-2
+     .col-1-2_icons
+       .fa-facebook
+          font-size: 40px
+          color: #3d6ad6
+          margin-top: 10px
+          &:hover
+           color: $colorIcons
+       .fa-instagram
+         display: inline-block
+         margin-top: -7%
+         width: 41px
+         height: 41px
+         text-align: center
+         border-radius: 10px
+         color: #fff
+         font-size: 37px
+         line-height: 41px
+         vertical-align: middle
+         background: #d6249f
+         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+         box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+         &:hover
+          color: $colorIcons
 
   footer
     div
@@ -131,7 +156,6 @@ $colorIcons: rgb(1, 72, 113)
 
 
 
-
 ///*Styles for mobile */
 @media screen and (max-width: 757px)
   footer
@@ -139,6 +163,7 @@ $colorIcons: rgb(1, 72, 113)
 
   footer .fontello-icon
     transition: all ease-in-out 0.3s
+    color: $fontsColor
     transform: rotate(90deg)
     float: right
     font-size: 50px
@@ -157,12 +182,14 @@ $colorIcons: rgb(1, 72, 113)
 
   footer > ul > li .col-1-2
     width: 100%
+    color: $fontsColor
 
   footer > ul > li > h1
     width: 100%
     font-size: 1.2em
     text-align: center
     padding: 5% 5%
+    color: $fontsColor
 
 
 
@@ -180,6 +207,7 @@ $colorIcons: rgb(1, 72, 113)
     color: $fontsColor
 
 
+
   footer > ul > li > div ul li
     padding: 1% 0
     text-decoration: none
@@ -188,12 +216,38 @@ $colorIcons: rgb(1, 72, 113)
 
     a
       text-decoration: none
-      color: $colorIcons
-
-
+      color: $fontsColor
+      &:hover
+       color: #e21f11
 
   footer > ol
     display: none
 
   footer  div
     padding: 5% 0
+
+  footer
+   .col-1-2
+    .col-1-2_icons
+      .fa-facebook
+        font-size: 40px
+        color: #3d6ad6
+        margin-top: 10px
+        &:hover
+          color: $colorIcons
+      .fa-instagram
+        display: inline-block
+        margin-top: -5%
+        width: 41px
+        height: 41px
+        text-align: center
+        border-radius: 10px
+        color: #fff
+        font-size: 37px
+        line-height: 41px
+        vertical-align: middle
+        background: #d6249f
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+        &:hover
+          color: $colorIcons

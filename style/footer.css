@@ -28,6 +28,33 @@
     color: #e21f11;
   }
 
+  footer .col-1-2 .col-1-2_icons .fa-facebook {
+    font-size: 40px;
+    color: #3d6ad6;
+    margin-top: 10px;
+  }
+  footer .col-1-2 .col-1-2_icons .fa-facebook:hover {
+    color: #014871;
+  }
+  footer .col-1-2 .col-1-2_icons .fa-instagram {
+    display: inline-block;
+    margin-top: -7%;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 37px;
+    line-height: 41px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  }
+  footer .col-1-2 .col-1-2_icons .fa-instagram:hover {
+    color: #014871;
+  }
+
   footer div {
     width: 100%;
     text-align: center;
@@ -143,6 +170,7 @@
 
   footer .fontello-icon {
     transition: all ease-in-out 0.3s;
+    color: #0c2a3f;
     transform: rotate(90deg);
     float: right;
     font-size: 50px;
@@ -164,6 +192,7 @@
 
   footer > ul > li .col-1-2 {
     width: 100%;
+    color: #0c2a3f;
   }
 
   footer > ul > li > h1 {
@@ -171,6 +200,7 @@
     font-size: 1.2em;
     text-align: center;
     padding: 5% 5%;
+    color: #0c2a3f;
   }
 
   footer > ul > li > h1 a {
@@ -195,7 +225,10 @@
   }
   footer > ul > li > div ul li a {
     text-decoration: none;
-    color: #014871;
+    color: #0c2a3f;
+  }
+  footer > ul > li > div ul li a:hover {
+    color: #e21f11;
   }
 
   footer > ol {
@@ -204,6 +237,33 @@
 
   footer div {
     padding: 5% 0;
+  }
+
+  footer .col-1-2 .col-1-2_icons .fa-facebook {
+    font-size: 40px;
+    color: #3d6ad6;
+    margin-top: 10px;
+  }
+  footer .col-1-2 .col-1-2_icons .fa-facebook:hover {
+    color: #014871;
+  }
+  footer .col-1-2 .col-1-2_icons .fa-instagram {
+    display: inline-block;
+    margin-top: -5%;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 37px;
+    line-height: 41px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  }
+  footer .col-1-2 .col-1-2_icons .fa-instagram:hover {
+    color: #014871;
   }
 }
 
