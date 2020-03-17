@@ -24,7 +24,6 @@
     <script src="slick/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
 <div class="all">
 <header>
@@ -53,7 +52,6 @@
     <div><img class="images__img1" src="images/klima19-1150x500.jpg" alt="slider-klimatyzacja1"></div>
     <div><img class="images__img2" src="images/should-i-repair-my-ac-or-replace-my-air-conditioner-1.jpg" alt="slider-klimatyzacja2"></div>
     <div><img class="images__img3" src="images/klim20.jpg" alt="slider-klimatyzacja3"></div>
-
 </div>
 
 <a id="about"></a>
@@ -62,7 +60,6 @@
     <h2> DBAMY O DOBRY KLIMAT W TWOIM OTOCZENIU </h2>
     <div class="aboutUs__text">
         <p>
-<!--            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="fan" class="svg-inline&#45;&#45;fa fa-fan fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M352.57 128c-28.09 0-54.09 4.52-77.06 12.86l12.41-123.11C289 7.31 279.81-1.18 269.33.13 189.63 10.13 128 77.64 128 159.43c0 28.09 4.52 54.09 12.86 77.06L17.75 224.08C7.31 223-1.18 232.19.13 242.67c10 79.7 77.51 141.33 159.3 141.33 28.09 0 54.09-4.52 77.06-12.86l-12.41 123.11c-1.05 10.43 8.11 18.93 18.59 17.62 79.7-10 141.33-77.51 141.33-159.3 0-28.09-4.52-54.09-12.86-77.06l123.11 12.41c10.44 1.05 18.93-8.11 17.62-18.59-10-79.7-77.51-141.33-159.3-141.33zM256 288a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"></path></svg>-->
             Podstawą naszej pracy są najnowsze technologie w dziedzinie klimatyzacji, wentylacji i automatyki.
             Profesjonalne podejście do każdego zlecenia.
             Wiemy, że potrzeby klientów są różne, dlatego do każdego podchodzimy indywidualnie.
@@ -75,7 +72,6 @@
             wpisami do Centralnego Rejestru Operatorów.
         </p>
         <p>
-<!--            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="fan" class="svg-inline&#45;&#45;fa fa-fan fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M352.57 128c-28.09 0-54.09 4.52-77.06 12.86l12.41-123.11C289 7.31 279.81-1.18 269.33.13 189.63 10.13 128 77.64 128 159.43c0 28.09 4.52 54.09 12.86 77.06L17.75 224.08C7.31 223-1.18 232.19.13 242.67c10 79.7 77.51 141.33 159.3 141.33 28.09 0 54.09-4.52 77.06-12.86l-12.41 123.11c-1.05 10.43 8.11 18.93 18.59 17.62 79.7-10 141.33-77.51 141.33-159.3 0-28.09-4.52-54.09-12.86-77.06l123.11 12.41c10.44 1.05 18.93-8.11 17.62-18.59-10-79.7-77.51-141.33-159.3-141.33zM256 288a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"></path></svg>-->
             Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
             sprzętu oraz profesjonalny montaż i serwis urządzeń.
             Gwarantujemy pełne wsparcie specjalistów na każdym etapie współpracy, doradztwo przy wyborze odpowiedniego
@@ -118,28 +114,22 @@
     </div>
 </section>
 
-
-
-
 <p class="void">NASZE CERTYFIKATY</p>
 <section class="certificates">
-
     <div class="certificates__col certificates__img1"><img src="images/cer8.jpg" alt="certyfikat1">
         <p>podpis</p>
     </div>
     <div class="certificates__col certificates__img2"><img src="images/cer7.jpg" alt="certyfikat2">
         <p>podpis</p></div>
     <div class="certificates__col certificates__img3"> <img src="images/cer1.jpg" alt="certyfikat3">
-        <p>podpis</p></div>
+    <p>podpis</p></div>
     <div class="certificates__col certificates__img4"><img src="images/cer2.jpg" alt="certyfikat4">
         <p>podpis</p></div>
     <div class="certificates__col certificates__img5"><img src="images/cer3.jpg" alt="certyfikat5">
         <p>podpis</p></div>
     <div class="certificates__col certificates__img6"><img src="images/cer4.jpg" alt="certyfikat6">
         <p>podpis</p></div>
-
 </section>
-
 
 <script>
     $('.images').slick({
@@ -151,17 +141,19 @@
         autoplaySpeed: 2000
     });
 
-
     $('.certificates').slick({
-        dots: true,
+
+        dots: false,
         infinite: false,
-        speed: 300,
+        autoplay: true,
+        speed: 3000,
         slidesToShow: 4,
         slidesToScroll: 4,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
+                    dots: true,
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
@@ -171,6 +163,7 @@
             {
                 breakpoint: 980,
                 settings: {
+                    dots: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
@@ -178,6 +171,7 @@
             {
                 breakpoint: 480,
                 settings: {
+                    dots: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
@@ -187,13 +181,10 @@
 </script>
 
 <footer>
-
     <ul class="container">
         <li class="col-1-3">
             <h1 onclick="showHideFooterLinks(this)">
-                <!--                <a href="#"><strong>KONTAKT</strong></a>-->
                 <strong id="footer">KONTAKT</strong>
-<!--                <a id="footer"></a>-->
                 <i class="fontello-icon icon-arrow_right"></i>
             </h1>
             <div>
@@ -225,7 +216,6 @@
         <li class="col-1-3">
             <h1 onclick="showHideFooterLinks(this)">
                <strong>JAK TRAFIĆ?</strong>
-                <!--                <a href="#">JAK TRAFIĆ?</a>-->
                 <i class="fontello-icon icon-arrow_right"></i>
             </h1>
             <div>
