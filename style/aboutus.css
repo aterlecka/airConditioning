@@ -25,6 +25,7 @@
   text-justify: inter-word;
   margin-bottom: 10px;
   flex: 0 0 45%;
+  color: #014871;
 }
 @media (min-width: 980px) {
   .aboutUs .aboutUs__text {
@@ -39,8 +40,7 @@
   height: 15px;
   width: 15px;
   margin-right: 7px;
-  color: black;
-  background-image: url("fan-solid.svg");
+  background-image: url("../fan-solid.svg");
 }
 
 /*# sourceMappingURL=aboutus.css.map */
