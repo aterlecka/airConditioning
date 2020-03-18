@@ -1,23 +1,13 @@
 $base-color: #ddf9f7
 $colorHover: #303e66
-$colorIcons: rgb(1, 72, 113)
+//$colorIcons: rgb(1, 72, 113)
+$colorIcons: #374A5E
 
 .aboutUs
   justify-content: center
   margin-top: 3%
   margin-bottom: 2%
   padding: 0 15px
-  //p
-  // &:before
-  //  content: ""
-  //  display: inline-block
-  //  height: 15px
-  //  width: 15px
-  //  margin-right: 7px
-  //  color: $colorIcons
-  //  background-image: url("../fan-solid.svg")
-
-
   h1
     text-align: center
     font-size: 50px
@@ -27,21 +17,26 @@ $colorIcons: rgb(1, 72, 113)
     margin-top: 1%
     text-align: center
     font-size: 30px
-    color: rgb(1, 72, 113)
+    color: $colorIcons
     -webkit-background-clip: text
     margin-bottom: 1%
+
+  .img2
+    display: none
   p
-    line-height: 30px
+    line-height: 34px
     list-style: none
-    text-align: justify
     text-justify: inter-word
-    margin-bottom: 10px
+    margin-bottom: 50px
     flex: 0 0 45%
-    color: $colorIcons
-  .aboutUs__text
-    @media (min-width: 980px)
-      display: flex
-      justify-content: space-around
+    color: white
+    position: absolute
+    left: 54%
+    text-align: inherit
+    margin-top: 3%
+    margin-right: 7%
+    font-size: 20px
+
 .aboutUs
   p
     &:before
@@ -50,8 +45,85 @@ $colorIcons: rgb(1, 72, 113)
       height: 15px
       width: 15px
       margin-right: 7px
-
       background-image: url('../fan-solid.svg')
-      //background-image: url('https://api.iconify.design/fa-solid:fan.svg?color=rgb(1%2C72%2C113)')
+
+
+@media (min-width: 1550px)
+  .aboutUs
+   .aboutUs__text
+     p
+      line-height: 30px
+      list-style: none
+      text-justify: inter-word
+      margin-bottom: 50px
+      flex: 0 0 45%
+      color: white
+      position: absolute
+      text-align: inherit
+      font-size: 23px
+      margin-top: 5%
+
+
+
+
+@media (max-width: 1500px)
+  .aboutUs
+   .aboutUs__text
+    p
+      line-height: 30px
+      list-style: none
+      text-justify: inter-word
+      margin-bottom: 50px
+      flex: 0 0 45%
+      color: white
+      position: absolute
+      text-align: inherit
+      //margin-right: 7%
+      font-size: 15px
+      margin-top: 3%
+
+
+
+@media(max-width: 1200px)
+ .aboutUs
+  .aboutUs__text
+   p
+    line-height: 24px
+    list-style: none
+    //text-align: justify
+    text-justify: inter-word
+    margin-bottom: 50px
+    flex: 0 0 45%
+    color: white
+    position: absolute
+    text-align: inherit
+    font-size: 12px
+    margin-top: 3%
+
+@media(max-width: 1050px)
+  .aboutUs
+    .aboutUs__text
+      border-style: outset
+      border-color: #afafaf
+      img
+        display: none
+      p
+
+        line-height: 27px
+        list-style: none
+        text-justify: inter-word
+        margin-bottom: 50px
+        flex: 0 0 45%
+        color: black
+        position: relative
+        left: 4%
+        text-align: inherit
+        font-size: 17px
+        margin-top: 10%
+
+
+
+
+
 
 

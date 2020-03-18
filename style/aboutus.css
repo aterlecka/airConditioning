@@ -7,31 +7,33 @@
 .aboutUs h1 {
   text-align: center;
   font-size: 50px;
-  color: #014871;
+  color: #374A5E;
   -webkit-background-clip: text;
 }
 .aboutUs h2 {
   margin-top: 1%;
   text-align: center;
   font-size: 30px;
-  color: #014871;
+  color: #374A5E;
   -webkit-background-clip: text;
   margin-bottom: 1%;
 }
-.aboutUs p {
-  line-height: 30px;
-  list-style: none;
-  text-align: justify;
-  text-justify: inter-word;
-  margin-bottom: 10px;
-  flex: 0 0 45%;
-  color: #014871;
+.aboutUs .img2 {
+  display: none;
 }
-@media (min-width: 980px) {
-  .aboutUs .aboutUs__text {
-    display: flex;
-    justify-content: space-around;
-  }
+.aboutUs p {
+  line-height: 34px;
+  list-style: none;
+  text-justify: inter-word;
+  margin-bottom: 50px;
+  flex: 0 0 45%;
+  color: white;
+  position: absolute;
+  left: 54%;
+  text-align: inherit;
+  margin-top: 3%;
+  margin-right: 7%;
+  font-size: 20px;
 }
 
 .aboutUs p:before {
@@ -41,6 +43,71 @@
   width: 15px;
   margin-right: 7px;
   background-image: url("../fan-solid.svg");
+}
+
+@media (min-width: 1550px) {
+  .aboutUs .aboutUs__text p {
+    line-height: 30px;
+    list-style: none;
+    text-justify: inter-word;
+    margin-bottom: 50px;
+    flex: 0 0 45%;
+    color: white;
+    position: absolute;
+    text-align: inherit;
+    font-size: 23px;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 1500px) {
+  .aboutUs .aboutUs__text p {
+    line-height: 30px;
+    list-style: none;
+    text-justify: inter-word;
+    margin-bottom: 50px;
+    flex: 0 0 45%;
+    color: white;
+    position: absolute;
+    text-align: inherit;
+    font-size: 15px;
+    margin-top: 3%;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutUs .aboutUs__text p {
+    line-height: 24px;
+    list-style: none;
+    text-justify: inter-word;
+    margin-bottom: 50px;
+    flex: 0 0 45%;
+    color: white;
+    position: absolute;
+    text-align: inherit;
+    font-size: 12px;
+    margin-top: 3%;
+  }
+}
+@media (max-width: 1050px) {
+  .aboutUs .aboutUs__text {
+    border-style: outset;
+    border-color: #afafaf;
+  }
+  .aboutUs .aboutUs__text img {
+    display: none;
+  }
+  .aboutUs .aboutUs__text p {
+    line-height: 27px;
+    list-style: none;
+    text-justify: inter-word;
+    margin-bottom: 50px;
+    flex: 0 0 45%;
+    color: black;
+    position: relative;
+    left: 4%;
+    text-align: inherit;
+    font-size: 17px;
+    margin-top: 10%;
+  }
 }
 
 /*# sourceMappingURL=aboutus.css.map */

@@ -51,7 +51,7 @@
 .main__col1 a {
   list-style: none;
   text-decoration: none;
-  color: #014871;
+  color: #374A5E;
   font-size: 25px;
 }
 .main__col1 a:hover {
@@ -108,7 +108,7 @@
   }
 
   .main .fa-bars {
-    color: midnightblue;
+    color: #374A5E;
     /*display: flex;*/
     text-align: center;
     justify-content: center;

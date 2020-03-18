@@ -7,7 +7,7 @@
   font-weight: bold;
   font-family: Consolas, monaco, monospace;
   font-size: 50px;
-  color: #014871;
+  color: #374A5E;
   text-align: center;
 }
 .offer .offer__columns {
@@ -30,13 +30,13 @@
   text-align: justify;
   text-justify: inter-word;
   font-family: Consolas, monaco, monospace;
-  color: #014871;
+  color: #374A5E;
 }
 .offer .offer__columns .offer__columns--col .title {
   font-size: 20px;
   font-weight: bold;
   font-family: Consolas, monaco, monospace;
-  color: #014871;
+  color: #374A5E;
 }
 
 @media (max-width: 980px) {
