@@ -4,10 +4,10 @@ $colorHover: #303e66
 $colorIcons: #374A5E
 
 .aboutUs
-  justify-content: center
-  margin-top: 3%
-  margin-bottom: 2%
-  padding: 0 15px
+  //justify-content: center
+  //margin-top: 3%
+  //margin-bottom: 2%
+  //padding: 0 15px
   h1
     text-align: center
     font-size: 50px
@@ -23,55 +23,37 @@ $colorIcons: #374A5E
 
   .img2
     display: none
-  p
-    line-height: 34px
-    list-style: none
+  ul
+    list-style: url("../fan-solid.svg "  )
     text-justify: inter-word
-    margin-bottom: 50px
-    flex: 0 0 45%
     color: white
     position: absolute
-    left: 54%
-    text-align: inherit
-    margin-top: 3%
-    margin-right: 7%
-    font-size: 20px
-
-.aboutUs
-  p
-    &:before
-      content: ""
-      display: inline-block
-      height: 15px
-      width: 15px
-      margin-right: 7px
-      background-image: url('../fan-solid.svg')
-
+    left: 53%
+    font-size: 16px
+    margin-top: 6%
+    margin-right: 5%
+    line-height: 26px
 
 @media (min-width: 1550px)
   .aboutUs
-   .aboutUs__text
-     p
-      line-height: 30px
-      list-style: none
+    ul
+      line-height: 23px
+      list-style: url("../fan-solid.svg")
       text-justify: inter-word
       margin-bottom: 50px
       flex: 0 0 45%
       color: white
       position: absolute
       text-align: inherit
-      font-size: 23px
+      font-size: 18px
       margin-top: 5%
-
-
 
 
 @media (max-width: 1500px)
   .aboutUs
-   .aboutUs__text
-    p
-      line-height: 30px
-      list-style: none
+    ul
+      line-height: 17px
+      list-style: url("../fan-solid.svg")
       text-justify: inter-word
       margin-bottom: 50px
       flex: 0 0 45%
@@ -79,51 +61,54 @@ $colorIcons: #374A5E
       position: absolute
       text-align: inherit
       //margin-right: 7%
-      font-size: 15px
+      font-size: 16px
       margin-top: 3%
 
 
-
 @media(max-width: 1200px)
- .aboutUs
-  .aboutUs__text
-   p
-    line-height: 24px
-    list-style: none
-    //text-align: justify
-    text-justify: inter-word
-    margin-bottom: 50px
-    flex: 0 0 45%
-    color: white
-    position: absolute
-    text-align: inherit
-    font-size: 12px
-    margin-top: 3%
+  .aboutUs
+
+    ul
+      line-height: 17px
+      list-style: url("../fan-solid.svg")
+      //text-align: justify
+      text-justify: inter-word
+      margin-bottom: 50px
+      flex: 0 0 45%
+      color: white
+      position: absolute
+      text-align: inherit
+      font-size: 14px
+      margin-top: 3%
+
 
 @media(max-width: 1050px)
   .aboutUs
-    .aboutUs__text
+    .aboutUs__border
       border-style: outset
       border-color: #afafaf
-      img
-        display: none
-      p
+      width: 88%
+      margin-left: 6%
+      height: 90%
+      background-color: #5b5a56
 
-        line-height: 27px
-        list-style: none
-        text-justify: inter-word
-        margin-bottom: 50px
-        flex: 0 0 45%
-        color: black
-        position: relative
-        left: 4%
-        text-align: inherit
-        font-size: 17px
-        margin-top: 10%
-
-
-
-
-
+    img
+      display: none
+    ul
+      //border-style: outset
+      //border-color: #afafaf
+      line-height: 20px
+      list-style: url("../fan-solid.svg")
+      text-justify: inter-word
+      margin-bottom: 50px
+      flex: 0 0 45%
+      color: white
+      position: relative
+      left: 4%
+      text-align: inherit
+      font-size: 14px
+      margin-top: 10%
+      li
+        list-style: url("../fan-solid.svg")
 
 
