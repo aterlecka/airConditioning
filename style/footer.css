@@ -10,14 +10,14 @@
     list-style-type: none;
     text-decoration: none;
     color: #0c2a3f;
-    font-family: Consolas, monaco, monospace;
+    font-family: "Trebuchet MS";
     text-align: left;
   }
   footer ul a, footer ol a, footer li a {
     list-style-type: none;
     text-decoration: none;
     color: #0c2a3f;
-    font-family: Consolas, monaco, monospace;
+    font-family: "Trebuchet MS";
   }
   footer ul a:hover, footer ol a:hover, footer li a:hover {
     color: #e21f11;
@@ -58,7 +58,7 @@
   }
   footer div .container p {
     color: #0d3349;
-    font-family: Consolas, monaco, monospace;
+    font-family: "Trebuchet MS";
   }
 }
 /* Styles for desktop */
@@ -140,6 +140,7 @@
 @media screen and (max-width: 980px) {
   footer {
     font-size: 16px;
+    background-color: #ededed;
   }
 
   footer .fontello-icon {
@@ -223,7 +224,7 @@
   }
   footer .col-1-2 .col-1-2_icons .fa-instagram {
     display: inline-block;
-    margin-top: -5%;
+    margin-top: -3%;
     width: 41px;
     height: 41px;
     text-align: center;
