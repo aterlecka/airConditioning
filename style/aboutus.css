@@ -29,7 +29,7 @@
 
 @media (min-width: 1550px) {
   .aboutUs ul {
-    line-height: 23px;
+    line-height: 26px;
     list-style: url("../fan-solid.svg");
     text-justify: inter-word;
     margin-bottom: 50px;
@@ -37,8 +37,8 @@
     color: white;
     position: absolute;
     text-align: inherit;
-    font-size: 18px;
-    margin-top: 5%;
+    font-size: 24px;
+    margin-top: 6%;
   }
 }
 @media (max-width: 1500px) {
@@ -57,6 +57,7 @@
 }
 @media (max-width: 1200px) {
   .aboutUs ul {
+    padding-left: 1%;
     line-height: 19px;
     list-style: url("../fan-solid.svg");
     text-justify: inter-word;
