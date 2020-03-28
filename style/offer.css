@@ -51,6 +51,7 @@
   .offer .offer__columns {
     display: flex;
     flex-direction: column;
+    padding-left: 2%;
   }
   .offer img {
     margin: 0 auto;
