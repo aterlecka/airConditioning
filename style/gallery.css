@@ -11,7 +11,7 @@
   font-family: "Trebuchet MS";
   color: #374A5E;
   text-align: center;
-  font-size: 31px;
+  font-size: 50px;
   margin-top: 5%;
 }
 .gallery .gallery__columns {
@@ -42,6 +42,12 @@
     max-width: 80%;
     max-height: 70%;
     margin-left: 0%;
+  }
+  .gallery .gallery__col2 {
+    display: none;
+  }
+  .gallery .gallery__col4 {
+    display: none;
   }
 }
 

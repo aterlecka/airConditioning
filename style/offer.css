@@ -1,14 +1,16 @@
-.offer img {
-  width: 100%;
-  margin: 0 auto;
-  background-size: cover;
-}
-.offer .offerDescribe {
+.offerDescribe {
+  margin-top: 3%;
   font-weight: bold;
   font-family: "Trebuchet MS";
   font-size: 50px;
   color: #374A5E;
   text-align: center;
+}
+
+.offer img {
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
 }
 .offer .offer__columns {
   display: flex;
@@ -31,6 +33,7 @@
   text-justify: inter-word;
   font-family: "Trebuchet MS";
   color: #374A5E;
+  font-size: 22px;
 }
 .offer .offer__columns .offer__columns--col .describe:before {
   content: "";
