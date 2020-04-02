@@ -11,7 +11,7 @@
 }
 
 .images {
-  margin-top: 5%;
+  margin-top: 6%;
 }
 .images img {
   width: 100vw;
@@ -39,7 +39,7 @@
 
 @media (max-width: 980px) {
   .images {
-    margin-top: 45%;
+    margin-top: 40%;
   }
   .images .images__img1 {
     width: 100%;
