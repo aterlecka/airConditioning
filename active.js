@@ -12,8 +12,7 @@ function showHideFooterLinks(child) {
     }
 }
 
-
-function myFunction() {
+function showHideHeaderLinks() {
     if ($(document).width() > 980)
         return;
     let x = document.getElementById("myLinks");

@@ -39,11 +39,11 @@
 
 @media (max-width: 980px) {
   .images {
-    margin-top: 40%;
+    margin-top: 45%;
   }
   .images .images__img1 {
     width: 100%;
-    height: 320px;
+    height: 100%;
   }
   .images .images__img2 {
     width: 100%;
