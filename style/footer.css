@@ -214,6 +214,10 @@
     padding: 5% 0;
   }
 
+  footer .col-1-2 iframe {
+    height: 90%;
+    width: 90%;
+  }
   footer .col-1-2 .col-1-2_icons .fa-facebook {
     font-size: 40px;
     color: #3d6ad6;
