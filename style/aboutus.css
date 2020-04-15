@@ -84,7 +84,7 @@
     display: none;
   }
   .aboutUs ul {
-    padding-left: 2%;
+    padding-left: 4%;
     line-height: 20px;
     list-style: url("../fan-solid.svg");
     text-justify: inter-word;
