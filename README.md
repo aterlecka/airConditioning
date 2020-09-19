@@ -15,7 +15,7 @@ I used FTP technology to upload the page to the server.
 * HTML
 * SASS
 * CSS
-* Java script
+* Java script~~~~
 
 
 ## Authors
