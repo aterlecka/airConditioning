@@ -7,62 +7,90 @@
     bottom: 0;
     left: -12%;
     z-index: 99999;
-    opacity:0;
+    opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
 }
+
 .modalDialog:target {
-    opacity:1;
+    opacity: 1;
     pointer-events: auto;
 }
+
 .modalDialog > div {
     width: 0px;
     height: 0px;
     position: relative;
     margin: 1% auto;
     padding: 5px;
-    background: rgba(0, 0, 0, 0.8);}
-
-
-
-#openModal1 img  {
-    width: 500px;
-    height:auto;
+    background: rgba(0, 0, 0, 0.8);
 }
 
-#openModal2 img  {
+#openModal0 img {
     width: 500px;
-    height:auto;
+    height: auto;
+}
+
+#openModal1 img {
+    width: 500px;
+    height: auto;
+}
+
+#openModal2 img {
+
+    width: 500px;
+    height: auto;
 
 }
-#openModal3 img  {
-    width: 500px;
-    height:auto;
+
+#openModal3 img {
+
+    width: 700px;
+    height: auto;
 
 }
-#openModal4 img  {
-    width: 500px;
-    height:auto;
+
+#openModal4 img {
+
+    width: 700px;
+    height: auto;
 
 }
-#openModal5 img  {
+
+#openModal5 img {
     width: 500px;
-    height:auto;
+    height: auto;
 }
-#openModal6 img  {
+
+#openModal6 img {
     width: 500px;
-    height:auto;
+    height: auto;
 }
-#openModal7 img  {
+
+#openModal7 img {
     width: 500px;
-    height:auto;
+    height: auto;
 }
-#openModal8 img  {
+
+#openModal8 img {
     width: 500px;
-    height:auto;
+    height: auto;
 }
+#openModal9 img {
+    width: 700px;
+    height: auto;
+}
+#openModal10 img {
+    width: 700px;
+    height: auto;
+}
+#openModal11 img {
+    width: 700px;
+    height: auto;
+}
+
 .close {
     background: #606061;
     color: #FFFFFF;
@@ -81,9 +109,21 @@
     -webkit-box-shadow: 1px 1px 3px #000;
     box-shadow: 1px 1px 3px #000;
 }
+
 .close:hover {
     background: #434444;
 }
+
+
+.certificates .images {
+
+    width: 91%;
+}
+.certificates .modal11 {
+
+    width: 82%;
+}
+
 
 @media (max-width: 980px) {
     .modalDialog {
@@ -91,5 +131,4 @@
 
     }
 }
-
 

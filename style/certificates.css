@@ -15,9 +15,32 @@
   max-width: calc(100% - 20px);
   max-width: 100%;
   height: 50%;
-  width: 50%;
+  width: 55%;
   background-size: cover;
 }
+.certificates img #openModal11 {
+  margin: 0 auto;
+  max-width: calc(100% - 20px);
+  max-width: 100%;
+  height: 50%;
+  width: 55%;
+  background-size: cover;
+}
+
+
+.certificates img #openModal3 #openModal4{
+  margin: 0 auto;
+  max-width: calc(100% - 20px);
+  max-width: 100%;
+  height: 50%;
+  width: 90%;
+  background-size: cover;
+}
+
+
+
+
+
 .certificates p {
   text-align: center;
   font-family: Consolas, monaco, monospace;
